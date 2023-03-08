@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <packages>
+      <package name="com.bridgelabz.qa.test"/>
+    </packages>
+    <classes>
+    <class name="com.bridgelabz.qa.test./TestMethodParameters.java">
+      <methods>
+      <parameter name="phone_Number" value="9651094335"></parameter>
+       <parameter name="Name" value="Abhishek"></parameter>
+    <include 
+    name="Test">
+    
+    </include>
+  
+      </methods>
+    </class>
+    </classes>
+   
+  </test> 
+</suite> 
